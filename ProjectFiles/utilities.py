@@ -34,8 +34,9 @@ class Subject():
 ### Aufgabe 2: Datenverarbeitung ###
 
 def calculate_CMA(df,n):
+    pd.DataFrame.rolling(5,3, min_periods= 3, center=False, win_type=None, on=None, axis=0).mean()
     pass
-    
 
+    
 def calculate_SMA(df,n):
     pass

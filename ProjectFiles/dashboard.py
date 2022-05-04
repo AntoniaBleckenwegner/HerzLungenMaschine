@@ -116,7 +116,9 @@ def update_figure(value, algorithm_checkmarks):
     fig2 = px.line(ts, x="Time (s)", y = data_names[2])
     
     ### Aufgabe 2: Min / Max ###
+    ut.calculate_CMA()
 
+    ut.calculate_SMA()
     return fig0, fig1, fig2 
 
 
@@ -134,8 +136,14 @@ def bloodflow_figure(value, bloodflow_checkmarks):
     bf = list_of_subjects[int(value)-1].subject_data
     fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s)")
 
+    
+
+    reliance[['Close', 'CMA30']].plot(label='RELIANCE', 
+                                  figsize=(16, 8))
+
 
     return fig3
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
