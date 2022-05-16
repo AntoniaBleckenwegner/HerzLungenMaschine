@@ -50,8 +50,19 @@ fig1 = px.line(df, x="Time (s)", y = "Blood Flow (ml/s)")
 fig2 = px.line(df, x="Time (s)", y = "Temp (C)")
 fig3 = px.line(df, x="Time (s)", y = "Blood Flow (ml/s)")
 
-app.layout = html.Div(children=[
-    html.H1(children='Cardiopulmonary Bypass Dashboard'),
+#layout
+colors = {
+    'background': '#faebd7',
+    'text': '#7FDBFF'
+}
+
+app.layout = html.Div(style={'backgroundColor': colors['background']},children=[
+    html.H1(children='Cardiopulmonary Bypass Dashboard', style={
+            'textAlign': 'center',
+            'color': "#483d8b"
+        }),
+    
+
 
     html.Div(children='''
         Hier könnten Informationen zum Patienten stehen....
@@ -64,11 +75,13 @@ app.layout = html.Div(children=[
     ),
 
     html.Div([
-        dcc.Dropdown(options = subj_numbers, placeholder='Select a subject', value='1', id='subject-dropdown'),
+        dcc.Dropdown(options = subj_numbers, placeholder='Select a subject', value='1', id='subject-dropdown'), 
     html.Div(id='dd-output-container')
     ],
-        style={"width": "15%"}
+        style={"width": "15%", "color": "#483d8b"} 
+        
     ),
+    
 
     dcc.Graph(
         id='dash-graph0',
@@ -93,6 +106,7 @@ app.layout = html.Div(children=[
         id='dash-graph3',
         figure=fig3
     )
+    
 ])
 ### Callback Functions ###
 ## Graph Update Callback
@@ -116,9 +130,15 @@ def update_figure(value, algorithm_checkmarks):
     fig2 = px.line(ts, x="Time (s)", y = data_names[2])
     
     ### Aufgabe 2: Min / Max ###
+    #ut.max()
+    #test = ut.Subject("data1.csv")
+
+    #ut.min()
+
     ut.calculate_CMA()
 
     ut.calculate_SMA()
+    
     return fig0, fig1, fig2 
 
 
@@ -134,16 +154,16 @@ def bloodflow_figure(value, bloodflow_checkmarks):
     ## Calculate Moving Average: Aufgabe 2
     print(bloodflow_checkmarks)
     bf = list_of_subjects[int(value)-1].subject_data
+    bf = ut.calculate_CMA(bf, 3)
+    bf = ut.calculate_SMA(bf, 10)
+    print(bf.head())
     fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s)")
 
-    
-
-    reliance[['Close', 'CMA30']].plot(label='RELIANCE', 
-                                  figsize=(16, 8))
-
-
+    if "CMA" in str(bloodflow_checkmarks):
+        pass # fehlt noch was
     return fig3
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    #app.run_server(debug=True)
+    app.run_server(host='localhost',port=8005)
 

@@ -1,3 +1,6 @@
+
+# %%
+
 from dash import Dash, html, dcc
 import plotly.express as px
 import pandas as pd
@@ -28,4 +31,6 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    #app.run_server(debug=True)
+    app.run_server(host='localhost',port=8005)
+# %%
