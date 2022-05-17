@@ -22,13 +22,6 @@ class Subject():
         self.time = self.subject_data["Time (s)"]        
         self.spO2 = self.subject_data["SpO2 (%)"]
         self.temp = self.subject_data["Temp (C)"]
-        self.maxspO2 = self.spO2.max()
-        self.maxtime = self.time.max()
-        self.maxtemp = self.temp.max()
-        self.minspO2 = self.spO2.min()
-        self.mintime = self.time.min()
-        self.mintemp = self.temp.min()
-
         self.blood_flow = self.subject_data["Blood Flow (ml/s)"]
         print('Subject ' + self.subject_id + ' initialized')
 
