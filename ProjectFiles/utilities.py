@@ -26,21 +26,30 @@ class Subject():
         print('Subject ' + self.subject_id + ' initialized')
 
 
+## Aufgabe 2: CMA/SMA 2 verschiedene Versuche
+   # def calculate_CMA(df,n):
+        #bloodflow  = df["Blood Flow (ml/s)"].to_frame()
+      #  bloodflow['CMA'] = bloodflow["Blood Flow (ml/s)"].expanding().mean()
+      #  return bloodflow
+    
+   # def calculate_SMA(df,n):
+       # bloodflow  = df["Blood Flow (ml/s)"].to_frame()
+      #  bloodflow['SMA'] = bloodflow["Blood Flow (ml/s)"].rolling(n).mean()
+       # return bloodflow
  
+def calculate_CMA(df,n):
+    return df.expanding(n).mean()
+    
+
+def calculate_SMA(df,n):
+    return df.rolling(n).mean()
 
 
 
 
-
+# Aufgabe 4
+# 4.1 Sinnvoll bei Signalen mit hohem Rauschen und/oder kurzen Ausreißern. zB Aktienkurs bei Börsen
+# Ungeeignet für Echtzeitsignale
+# 4.2 Je größer n, desto mehr Anfangswerte können nicht berechnet werden und hohe Flanken im Signal werden starkt geglättet.
 
         
-
-### Aufgabe 2: Datenverarbeitung ##
-
-#print(Subject.name)
-#pd.DataFrame.rolling(5,3, min_periods= 3, center=False, win_type=None, on=None, axis=0).mean()
-    
-
-    
-#def calculate_SMA(df,n):
-   # pass

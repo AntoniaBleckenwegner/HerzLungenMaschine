@@ -65,7 +65,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},children=[
 
 
     html.Div(children='''
-        Hier könnten Informationen zum Patienten stehen....
+        Gesamte Beobachtungsdauer: 481 Sekunden
     '''),
 
     dcc.Checklist(
@@ -157,10 +157,11 @@ def update_figure(value, algorithm_checkmarks):
     return fig0, fig1, fig2
 
 
-    #Aufgabe 2: CMA/SMA
+    #Aufgabe 2: CMA/SMA Test
+    #ut.calculate_CMA()
+    #ut.calculate_SMA()
 
-    ut.calculate_CMA()
-    ut.calculate_SMA()
+
 
 ## Blodflow Simple Moving Average Update
 @app.callback(
@@ -169,21 +170,40 @@ def update_figure(value, algorithm_checkmarks):
     Input('subject-dropdown', 'value'),
     Input('checklist-bloodflow','value')
 )
+
 def bloodflow_figure(value, bloodflow_checkmarks):
-    
-    ## Calculate Moving Average: Aufgabe 2
     print(bloodflow_checkmarks)
     bf = list_of_subjects[int(value)-1].subject_data
-    bf = ut.calculate_CMA(bf, 3)
-    bf = ut.calculate_SMA(bf, 10)
-    print(bf.head())
     fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s)")
 
-    if "CMA" in str(bloodflow_checkmarks):
-        pass # fehlt noch was
+    #Aufgabe 2
+    #if bloodflow_checkmarks is not None:
+      #  if bloodflow_checkmarks == ["SMA"]:
+        #    bf["Blood Flow (ml/s) - SMA"] = ut.calculate_SMA(bf["Blood Flow (ml/s)"],5) 
+         #   fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s) - SMA")
+
+      #  if bloodflow_checkmarks == ["CMA"]:
+           # bf["Blood Flow (ml/s) - CMA"] = ut.calculate_CMA(bf["Blood Flow (ml/s)"],2) 
+          #  fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s) - CMA")
+
+
+    #Aufgabe 3
+    #Mittelwert
+    avg = bf.mean()
+    x = [0, 480]
+    y = avg.loc['Blood Flow (ml/s)']
+    fig3.add_trace(go.Scatter(x = x, y= [y,y], mode = 'lines', name = 'Mittelwert'))
+
+    #15% Intervalle,
+    y_oben = (avg.loc['Blood Flow (ml/s)'])*1.15
+    fig3.add_trace(go.Scatter(x = x, y= [y_oben,y_oben], mode = 'lines', marker_color = 'blue', name = 'obere Grenze'))
+    
+    y_unten = (avg.loc['Blood Flow (ml/s)'])*0.85
+    fig3.add_trace(go.Scatter(x = x, y= [y_unten, y_unten], mode = 'lines', marker_color = 'blue', name = 'untere Grenze'))
     return fig3
 
-if __name__ == '__main__':
-    #app.run_server(debug=True)
-    app.run_server(host='localhost',port=8005)
 
+
+if __name__ == '__main__':
+    #app.run_server(debug=True) (nicht hostbar)
+    app.run_server(host='localhost',port=8005)
