@@ -6,6 +6,9 @@ from datetime import datetime
 import numpy as np
 import re
 
+
+
+
 # Classes 
 
 class Subject():
@@ -24,6 +27,9 @@ class Subject():
         self.temp = self.subject_data["Temp (C)"]
         self.blood_flow = self.subject_data["Blood Flow (ml/s)"]
         print('Subject ' + self.subject_id + ' initialized')
+        
+    
+
 
 
 ## Aufgabe 2: CMA/SMA 2 verschiedene Versuche
@@ -48,8 +54,17 @@ def calculate_SMA(df,n):
 
 
 # Aufgabe 4
-# 4.1 Sinnvoll bei Signalen mit hohem Rauschen und/oder kurzen Ausreißern. zB Aktienkurs bei Börsen
-# Ungeeignet für Echtzeitsignale
-# 4.2 Je größer n, desto mehr Anfangswerte können nicht berechnet werden und hohe Flanken im Signal werden starkt geglättet.
+# 4.1 Der Simple Moving Average ist Sinnvoll bei rauschenden Signalen und kurzen Außreißern
+# Vorteile:
+#   -geglätteter Chart
+#   -Erkennen von Trends bzw. Trendwende
+#   -va. für Charts mit höhrer Timeframe
+
+# Nachteile:
+#   -ungeeignet wenn Echtzeit Signale benötigt werden (zB bei HLM soll schnell auf abnormale Werte reagiert werden)
+#   -Außreiser nicht sichtbar (zB bei manchen Preischarts doch von großer Relvanz (vgl. Depeg Stablecoin))
+
+
+
 
         

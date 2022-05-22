@@ -10,6 +10,16 @@ import numpy as np
 import os
 import re
 
+import logging
+
+Log_Format = "%(levelname)s:%(asctime)s:%(message)s"
+
+logging.basicConfig(filename = "logfile.logg",
+                    filemode = "w",
+                    format = Log_Format, 
+                    level = logging.INFO)
+
+
 app = Dash(__name__)
 
 
@@ -34,10 +44,12 @@ df = list_of_subjects[0].subject_data
 
 for i in range(number_of_subjects):
     subj_numbers.append(list_of_subjects[i].subject_id)
-
+    logging.info('Subject {}{}'.format(i,' initialised'))
 data_names = ["SpO2 (%)", "Blood Flow (ml/s)","Temp (C)"]
 algorithm_names = ['min','max']
 blood_flow_functions = ['CMA','SMA','Show Limits']
+
+
 
 
 fig0= go.Figure()
@@ -65,7 +77,9 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},children=[
 
 
     html.Div(children='''
-        Gesamte Beobachtungsdauer: 481 Sekunden
+        Gesamte Beobachtungsdauer: 481 Sekunden;
+        Anzahl Probanden: 3;
+        Herzlungenmaschine Modell: Stöckert S5 
     '''),
 
     dcc.Checklist(
@@ -134,7 +148,11 @@ def update_figure(value, algorithm_checkmarks):
 
     # Aufgabe 2: Min/Max 
     grp = ts.agg(['max', 'min', 'idxmax', 'idxmin'])
+    
     print(grp)
+    
+    
+    
    
    
     if 'max' in algorithm_checkmarks:
@@ -146,6 +164,7 @@ def update_figure(value, algorithm_checkmarks):
                     mode='markers', name='max', marker_color= 'green'))
     
     if 'min' in algorithm_checkmarks:
+        logging.info('Subject initialized')
         fig0.add_trace(go.Scatter(x= [grp.loc['idxmin', data_names[0]]], y= [grp.loc['min', data_names[0]]],
                     mode='markers', name='min', marker_color= 'red'))
         fig1.add_trace(go.Scatter(x= [grp.loc['idxmin', data_names[1]]], y= [grp.loc['min', data_names[1]]],
@@ -157,9 +176,7 @@ def update_figure(value, algorithm_checkmarks):
     return fig0, fig1, fig2
 
 
-    #Aufgabe 2: CMA/SMA Test
-    #ut.calculate_CMA()
-    #ut.calculate_SMA()
+  
 
 
 
@@ -177,14 +194,18 @@ def bloodflow_figure(value, bloodflow_checkmarks):
     fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s)")
 
     #Aufgabe 2
-    #if bloodflow_checkmarks is not None:
-      #  if bloodflow_checkmarks == ["SMA"]:
-        #    bf["Blood Flow (ml/s) - SMA"] = ut.calculate_SMA(bf["Blood Flow (ml/s)"],5) 
-         #   fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s) - SMA")
+    if bloodflow_checkmarks is not None:
+        if bloodflow_checkmarks == ["SMA"]:
+            bf["Blood Flow (ml/s) - SMA"] = ut.calculate_SMA(bf["Blood Flow (ml/s)"],5) 
+            fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s) - SMA")
 
-      #  if bloodflow_checkmarks == ["CMA"]:
-           # bf["Blood Flow (ml/s) - CMA"] = ut.calculate_CMA(bf["Blood Flow (ml/s)"],2) 
-          #  fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s) - CMA")
+        if bloodflow_checkmarks == ["CMA"]:
+            bf["Blood Flow (ml/s) - CMA"] = ut.calculate_CMA(bf["Blood Flow (ml/s)"],2) 
+            fig3 = px.line(bf, x="Time (s)", y="Blood Flow (ml/s) - CMA")
+
+    #option 2:
+    #ut.calculate_CMA()
+    #ut.calculate_SMA()
 
 
     #Aufgabe 3
@@ -194,15 +215,20 @@ def bloodflow_figure(value, bloodflow_checkmarks):
     y = avg.loc['Blood Flow (ml/s)']
     fig3.add_trace(go.Scatter(x = x, y= [y,y], mode = 'lines', name = 'Mittelwert'))
 
+
+
     #15% Intervalle,
     y_oben = (avg.loc['Blood Flow (ml/s)'])*1.15
     fig3.add_trace(go.Scatter(x = x, y= [y_oben,y_oben], mode = 'lines', marker_color = 'blue', name = 'obere Grenze'))
     
-    y_unten = (avg.loc['Blood Flow (ml/s)'])*0.85
+    y_unten = (avg.loc['Blood Flow (ml/s)'])*0.8
     fig3.add_trace(go.Scatter(x = x, y= [y_unten, y_unten], mode = 'lines', marker_color = 'blue', name = 'untere Grenze'))
+    
+
+   # if avg > 80 or avg <60:
+        #logging.info('critical bloodflow warning')
+
     return fig3
-
-
 
 if __name__ == '__main__':
     #app.run_server(debug=True) (nicht hostbar)

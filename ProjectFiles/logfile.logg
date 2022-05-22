@@ -1,0 +1,684 @@
+INFO:2022-05-22 20:32:28,793:Test of subject 0 has been marked as invalid because of
+INFO:2022-05-22 20:32:28,793:Test of subject 1 has been marked as invalid because of
+INFO:2022-05-22 20:33:12,092:Test of subject 0 has been marked as invalid because of
+INFO:2022-05-22 20:33:12,093:Test of subject 1 has been marked as invalid because of
+:19:58,099:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:19:58,118: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:20:38,610:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:20:38,621: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:22:29,089:Subject asdf
+INFO:2022-05-22 20:22:29,321:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:22:29,336: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:23:28,464:Subject asdf
+INFO:2022-05-22 20:23:28,718:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:23:28,728: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:36:47,664:asdf
+INFO:2022-05-22 20:36:47,665:asdf
+INFO:2022-05-22 20:36:47,665:asdf
+INFO:2022-05-22 20:36:47,862:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:36:47,874: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:36:52,151:asdf
+INFO:2022-05-22 20:36:52,151:asdf
+INFO:2022-05-22 20:36:52,151:asdf
+INFO:2022-05-22 20:36:52,331:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:36:52,343: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:37:22,328:0
+INFO:2022-05-22 20:37:22,328:1
+INFO:2022-05-22 20:37:22,328:2
+INFO:2022-05-22 20:37:22,498:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:37:22,514: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:39:15,050:Data of Subject 0 has been loaded
+INFO:2022-05-22 20:39:15,051:Data of Subject 1 has been loaded
+INFO:2022-05-22 20:39:15,051:Data of Subject 2 has been loaded
+INFO:2022-05-22 20:39:15,270:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:39:15,289: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:44:43,359:127.0.0.1 - - [22/May/2022 20:44:43] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:44:43,405:Subject initialized
+INFO:2022-05-22 20:44:43,414:127.0.0.1 - - [22/May/2022 20:44:43] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:44:48,112:Subject initialized
+INFO:2022-05-22 20:44:48,117:127.0.0.1 - - [22/May/2022 20:44:48] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:44:48,349:127.0.0.1 - - [22/May/2022 20:44:48] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:44:54,374:127.0.0.1 - - [22/May/2022 20:44:54] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:44:54,474:Subject initialized
+INFO:2022-05-22 20:44:54,479:127.0.0.1 - - [22/May/2022 20:44:54] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:45:02,409:Subject initialized
+INFO:2022-05-22 20:45:02,417:127.0.0.1 - - [22/May/2022 20:45:02] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:45:02,570:127.0.0.1 - - [22/May/2022 20:45:02] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:45:50,283:Data of Subject 0 has been loaded
+INFO:2022-05-22 20:45:50,283:Data of Subject 1 has been loaded
+INFO:2022-05-22 20:45:50,283:Data of Subject 2 has been loaded
+INFO:2022-05-22 20:45:50,699:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:45:50,722: * Running on http://localhost:8005 (Press CTRL+C to quit)
+ERROR:2022-05-22 20:47:36,381:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-19-0d9879694d1a>", line 212, in bloodflow_figure
+    if avg > 80:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:47:36,467:Subject initialized
+INFO:2022-05-22 20:47:36,469:127.0.0.1 - - [22/May/2022 20:47:36] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:47:36,476:127.0.0.1 - - [22/May/2022 20:47:36] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:47:37,096:Subject initialized
+INFO:2022-05-22 20:47:37,103:127.0.0.1 - - [22/May/2022 20:47:37] "POST /_dash-update-component HTTP/1.1" 200 -
+ERROR:2022-05-22 20:47:37,335:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-19-0d9879694d1a>", line 212, in bloodflow_figure
+    if avg > 80:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:47:37,335:127.0.0.1 - - [22/May/2022 20:47:37] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:47:38,443:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-19-0d9879694d1a>", line 212, in bloodflow_figure
+    if avg > 80:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:47:38,476:127.0.0.1 - - [22/May/2022 20:47:38] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:47:38,522:Subject initialized
+INFO:2022-05-22 20:47:38,529:127.0.0.1 - - [22/May/2022 20:47:38] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:50:47,124:Subject 0 initialised
+INFO:2022-05-22 20:50:47,124:Subject 1 initialised
+INFO:2022-05-22 20:50:47,124:Subject 2 initialised
+INFO:2022-05-22 20:50:47,318:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:50:47,335: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:51:19,949:Subject 0 initialised
+INFO:2022-05-22 20:51:19,949:Subject 1 initialised
+INFO:2022-05-22 20:51:19,949:Subject 2 initialised
+INFO:2022-05-22 20:51:20,149:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:51:20,170: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:51:24,195:127.0.0.1 - - [22/May/2022 20:51:24] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:51:24,573:127.0.0.1 - - [22/May/2022 20:51:24] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:51:24,577:127.0.0.1 - - [22/May/2022 20:51:24] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:51:24,883:127.0.0.1 - - [22/May/2022 20:51:24] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:51:25,186:127.0.0.1 - - [22/May/2022 20:51:25] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:51:25,235:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-21-71e95bbc2555>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:51:25,239:127.0.0.1 - - [22/May/2022 20:51:25] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:51:25,293:127.0.0.1 - - [22/May/2022 20:51:25] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:51:25,334:127.0.0.1 - - [22/May/2022 20:51:25] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:51:25,423:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-21-71e95bbc2555>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:51:25,424:127.0.0.1 - - [22/May/2022 20:51:25] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:51:26,227:127.0.0.1 - - [22/May/2022 20:51:26] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:52:22,366:Subject 0 initialised
+INFO:2022-05-22 20:52:22,367:Subject 1 initialised
+INFO:2022-05-22 20:52:22,367:Subject 2 initialised
+INFO:2022-05-22 20:52:22,720:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:52:22,743: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:52:25,441:127.0.0.1 - - [22/May/2022 20:52:25] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:52:25,867:127.0.0.1 - - [22/May/2022 20:52:25] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:52:26,177:127.0.0.1 - - [22/May/2022 20:52:26] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:52:26,182:127.0.0.1 - - [22/May/2022 20:52:26] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:52:26,660:127.0.0.1 - - [22/May/2022 20:52:26] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+ERROR:2022-05-22 20:52:26,789:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-22-fb781bcb7123>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:52:26,692:127.0.0.1 - - [22/May/2022 20:52:26] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:52:26,697:127.0.0.1 - - [22/May/2022 20:52:26] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:52:26,738:127.0.0.1 - - [22/May/2022 20:52:26] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:52:26,797:127.0.0.1 - - [22/May/2022 20:52:26] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:52:26,976:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-22-fb781bcb7123>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:52:26,978:127.0.0.1 - - [22/May/2022 20:52:26] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:54:55,586:Subject 0 initialised
+INFO:2022-05-22 20:54:55,586:Subject 1 initialised
+INFO:2022-05-22 20:54:55,586:Subject 2 initialised
+INFO:2022-05-22 20:54:55,866:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:54:55,893: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:55:10,617:127.0.0.1 - - [22/May/2022 20:55:10] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:10,935:127.0.0.1 - - [22/May/2022 20:55:10] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:10,939:127.0.0.1 - - [22/May/2022 20:55:10] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:11,240:127.0.0.1 - - [22/May/2022 20:55:11] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:11,531:127.0.0.1 - - [22/May/2022 20:55:11] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:55:11,605:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:11,622:127.0.0.1 - - [22/May/2022 20:55:11] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:55:11,677:127.0.0.1 - - [22/May/2022 20:55:11] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:55:11,741:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:55:11,696:127.0.0.1 - - [22/May/2022 20:55:11] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:55:11,746:127.0.0.1 - - [22/May/2022 20:55:11] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:55:12,492:127.0.0.1 - - [22/May/2022 20:55:12] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:16,671:Subject initialized
+INFO:2022-05-22 20:55:16,676:127.0.0.1 - - [22/May/2022 20:55:16] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:17,714:127.0.0.1 - - [22/May/2022 20:55:17] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:18,095:127.0.0.1 - - [22/May/2022 20:55:18] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:55:19,134:127.0.0.1 - - [22/May/2022 20:55:19] "POST /_dash-update-component HTTP/1.1" 200 -
+ERROR:2022-05-22 20:55:21,719:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:21,720:127.0.0.1 - - [22/May/2022 20:55:21] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:55:23,302:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:23,302:127.0.0.1 - - [22/May/2022 20:55:23] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:55:23,564:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:23,565:127.0.0.1 - - [22/May/2022 20:55:23] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:55:24,368:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:24,369:127.0.0.1 - - [22/May/2022 20:55:24] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:55:25,073:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:25,074:127.0.0.1 - - [22/May/2022 20:55:25] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:55:25,744:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:55:25,745:127.0.0.1 - - [22/May/2022 20:55:25] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:56:00,501:127.0.0.1 - - [22/May/2022 20:56:00] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:01,037:127.0.0.1 - - [22/May/2022 20:56:01] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:01,257:127.0.0.1 - - [22/May/2022 20:56:01] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:01,554:127.0.0.1 - - [22/May/2022 20:56:01] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:01,748:127.0.0.1 - - [22/May/2022 20:56:01] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+ERROR:2022-05-22 20:56:01,964:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:56:01,919:127.0.0.1 - - [22/May/2022 20:56:01] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:01,937:127.0.0.1 - - [22/May/2022 20:56:01] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:02,015:127.0.0.1 - - [22/May/2022 20:56:02] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:56:02,168:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-23-6ef57177c2a1>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:56:02,027:127.0.0.1 - - [22/May/2022 20:56:02] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:02,170:127.0.0.1 - - [22/May/2022 20:56:02] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:56:11,758:Subject 0 initialised
+INFO:2022-05-22 20:56:11,758:Subject 1 initialised
+INFO:2022-05-22 20:56:11,758:Subject 2 initialised
+INFO:2022-05-22 20:56:12,055:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:56:12,080: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:56:14,753:127.0.0.1 - - [22/May/2022 20:56:14] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:14,942:127.0.0.1 - - [22/May/2022 20:56:14] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:15,017:127.0.0.1 - - [22/May/2022 20:56:15] "GET /_dash-dependencies HTTP/1.1" 200 -
+ERROR:2022-05-22 20:56:15,433:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-24-85487661630d>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:56:15,434:127.0.0.1 - - [22/May/2022 20:56:15] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:56:15,540:127.0.0.1 - - [22/May/2022 20:56:15] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+ERROR:2022-05-22 20:56:15,602:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-24-85487661630d>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:56:15,542:127.0.0.1 - - [22/May/2022 20:56:15] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:15,545:127.0.0.1 - - [22/May/2022 20:56:15] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:15,555:127.0.0.1 - - [22/May/2022 20:56:15] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:15,605:127.0.0.1 - - [22/May/2022 20:56:15] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:56:16,343:127.0.0.1 - - [22/May/2022 20:56:16] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:34,921:127.0.0.1 - - [22/May/2022 20:56:34] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:35,251:127.0.0.1 - - [22/May/2022 20:56:35] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:35,259:127.0.0.1 - - [22/May/2022 20:56:35] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:35,568:127.0.0.1 - - [22/May/2022 20:56:35] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:35,948:127.0.0.1 - - [22/May/2022 20:56:35] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:56:36,036:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-24-85487661630d>", line 214, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:56:35,954:127.0.0.1 - - [22/May/2022 20:56:35] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:35,964:127.0.0.1 - - [22/May/2022 20:56:35] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:36,044:127.0.0.1 - - [22/May/2022 20:56:36] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+ERROR:2022-05-22 20:56:36,174:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-24-85487661630d>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:56:36,178:127.0.0.1 - - [22/May/2022 20:56:36] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:56:36,370:127.0.0.1 - - [22/May/2022 20:56:36] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:36,862:127.0.0.1 - - [22/May/2022 20:56:36] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:40,791:Subject 0 initialised
+INFO:2022-05-22 20:56:40,792:Subject 1 initialised
+INFO:2022-05-22 20:56:40,792:Subject 2 initialised
+INFO:2022-05-22 20:56:41,046:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:56:41,070: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:56:44,453:127.0.0.1 - - [22/May/2022 20:56:44] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:44,628:127.0.0.1 - - [22/May/2022 20:56:44] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:44,706:127.0.0.1 - - [22/May/2022 20:56:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+ERROR:2022-05-22 20:56:45,163:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-25-d18a56b0860e>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:56:45,166:127.0.0.1 - - [22/May/2022 20:56:45] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:56:45,238:127.0.0.1 - - [22/May/2022 20:56:45] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:45,242:127.0.0.1 - - [22/May/2022 20:56:45] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:45,243:127.0.0.1 - - [22/May/2022 20:56:45] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:45,283:127.0.0.1 - - [22/May/2022 20:56:45] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:56:45,307:127.0.0.1 - - [22/May/2022 20:56:45] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:56:46,054:127.0.0.1 - - [22/May/2022 20:56:46] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:57:35,627:Subject 0 initialised
+INFO:2022-05-22 20:57:35,627:Subject 1 initialised
+INFO:2022-05-22 20:57:35,627:Subject 2 initialised
+INFO:2022-05-22 20:57:54,440:Subject 0 initialised
+INFO:2022-05-22 20:57:54,441:Subject 1 initialised
+INFO:2022-05-22 20:57:54,441:Subject 2 initialised
+INFO:2022-05-22 20:57:54,927:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:57:54,976: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:57:57,003:127.0.0.1 - - [22/May/2022 20:57:57] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:57:57,402:127.0.0.1 - - [22/May/2022 20:57:57] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:57:57,404:127.0.0.1 - - [22/May/2022 20:57:57] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:57:57,704:127.0.0.1 - - [22/May/2022 20:57:57] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+ERROR:2022-05-22 20:57:58,179:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-27-acac8a513931>", line 228, in bloodflow_figure
+    if avg > 80 or avg <60:
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\core\generic.py", line 1535, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO:2022-05-22 20:57:58,138:127.0.0.1 - - [22/May/2022 20:57:58] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:57:58,208:127.0.0.1 - - [22/May/2022 20:57:58] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:57:58,321:127.0.0.1 - - [22/May/2022 20:57:58] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:57:58,326:127.0.0.1 - - [22/May/2022 20:57:58] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:57:58,456:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-27-acac8a513931>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:57:58,457:127.0.0.1 - - [22/May/2022 20:57:58] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:57:58,930:127.0.0.1 - - [22/May/2022 20:57:58] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:28,084:Subject 0 initialised
+INFO:2022-05-22 20:58:28,084:Subject 1 initialised
+INFO:2022-05-22 20:58:28,084:Subject 2 initialised
+INFO:2022-05-22 20:58:28,305:Dash is running on http://localhost:8005/
+
+INFO:2022-05-22 20:58:28,330: * Running on http://localhost:8005 (Press CTRL+C to quit)
+INFO:2022-05-22 20:58:30,530:127.0.0.1 - - [22/May/2022 20:58:30] "GET / HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:30,931:127.0.0.1 - - [22/May/2022 20:58:30] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:30,938:127.0.0.1 - - [22/May/2022 20:58:30] "GET /_dash-layout HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:31,247:127.0.0.1 - - [22/May/2022 20:58:31] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:31,792:127.0.0.1 - - [22/May/2022 20:58:31] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:58:31,811:127.0.0.1 - - [22/May/2022 20:58:31] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO:2022-05-22 20:58:31,873:127.0.0.1 - - [22/May/2022 20:58:31] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:31,885:127.0.0.1 - - [22/May/2022 20:58:31] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+ERROR:2022-05-22 20:58:32,054:Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\dash.py", line 1383, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\janni\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dash\_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "<ipython-input-28-bc93c253546e>", line 158, in update_figure
+    if 'max' in algorithm_checkmarks:
+TypeError: argument of type 'NoneType' is not iterable
+INFO:2022-05-22 20:58:32,056:127.0.0.1 - - [22/May/2022 20:58:32] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+INFO:2022-05-22 20:58:32,333:127.0.0.1 - - [22/May/2022 20:58:32] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:58:32,886:127.0.0.1 - - [22/May/2022 20:58:32] "GET /_favicon.ico?v=2.3.1 HTTP/1.1" 200 -
+INFO:2022-05-22 20:59:21,175:Subject initialized
+INFO:2022-05-22 20:59:21,182:127.0.0.1 - - [22/May/2022 20:59:21] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO:2022-05-22 20:59:22,010:Subject initialized
+INFO:2022-05-22 20:59:22,016:127.0.0.1 - - [22/May/2022 20:59:22] "POST /_dash-update-component HTTP/1.1" 200 -
